@@ -2,7 +2,7 @@
     "name": "test-switcher",
     "displayName": "test-switcher",
     "description": "A simple extension to switch between source files and their test.",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "publisher": "tasugo",
     "engines": {
         "vscode": "^1.14.0"
@@ -15,16 +15,20 @@
     ],
     "main": "./extension",
     "contributes": {
-        "commands": [{
-            "command": "extension.testSwitch",
-            "title": "Switch between src and test files"
-        }],
-        "keybindings": [{
-            "command": "extension.testSwitch",
-            "key": "alt+t",
-            "mac": "cmd+t",
-            "when": "editorTextFocus"
-        }]
+        "commands": [
+            {
+                "command": "extension.testSwitch",
+                "title": "Switch between src and test files"
+            }
+        ],
+        "keybindings": [
+            {
+                "command": "extension.testSwitch",
+                "key": "alt+t",
+                "mac": "cmd+t",
+                "when": "editorTextFocus"
+            }
+        ]
     },
     "devDependencies": {
         "typescript": "^2.0.3",
