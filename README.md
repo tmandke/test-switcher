@@ -1,42 +1,18 @@
 # test-switcher
 
-Simple switcher between a source file and its corresponding test.
+Heavily inspired by [@dcarral](https://github.com/dcarral)'s [atom-ruby-test-switcer](https://github.com/dcarral/atom-ruby-test-switcher), test-switcher is a simple switcher between a source file and its corresponding test in [vscode](https://github.com/Microsoft/vscode).
 
 ## Features
 
-TODO.
-
-## Requirements
-
-TODO.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+- Switching between a source file and its corresponding test file.
+- Keybinding: alt+t (Mac: cmd+t).
 
 ## Known Issues
 
-TODO.
+This is pre-alpha software. Pretty much nothing is guaranteed to work :)
 
 ## Release Notes
 
-TODO.
+### 0.0.2
 
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+Keybinding: alt+t

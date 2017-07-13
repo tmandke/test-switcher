@@ -18,6 +18,12 @@
         "commands": [{
             "command": "extension.testSwitch",
             "title": "Switch between src and test files"
+        }],
+        "keybindings": [{
+            "command": "extension.testSwitch",
+            "key": "alt+t",
+            "mac": "cmd+t",
+            "when": "editorTextFocus"
         }]
     },
     "devDependencies": {
